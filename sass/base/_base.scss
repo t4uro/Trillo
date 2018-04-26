@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--color-grey-dark-2);
+
+	min-height: 100vh;
+}
